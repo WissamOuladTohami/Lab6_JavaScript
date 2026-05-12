@@ -147,12 +147,15 @@ curl -X PUT "http://localhost:3000/api/products/<id>" \
 ```bash
 curl -X DELETE "http://localhost:3000/api/products/<id>"
 ```
+---
 
 ## 🧠 Notes
 
 - 🧷 Les validations sont centralisées dans `middleware/validators.js`.
 - 🧾 Les pages EJS utilisent le layout `views/layout.ejs`.
 - 💡 Pour que MongoDB fonctionne, assure-toi que le conteneur (ou le service local) écoute sur `27017`.
+
+---
 
 ## 🗺️ Prochaines améliorations (idées)
 
@@ -161,7 +164,4 @@ curl -X DELETE "http://localhost:3000/api/products/<id>"
 - 🧠 Tests (Jest/Supertest) + CI
 - 📦 Dockerisation complète (app + mongo)
 
----
-
-Bon dev ! 🖤✨
 
